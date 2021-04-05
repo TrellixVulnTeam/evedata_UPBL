@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>ede4598d-5064-4f51-b188-1ba3edbd1dbe</OriginalElement>
+  <nodes>
+    <node x="568.0" y="0.0">ede4598d-5064-4f51-b188-1ba3edbd1dbe.TABLE:main.sqlite_master</node>
+    <node x="0.0" y="541.0">ede4598d-5064-4f51-b188-1ba3edbd1dbe.TABLE:main.thera</node>
+    <node x="340.0" y="541.5">ede4598d-5064-4f51-b188-1ba3edbd1dbe.TABLE:main.connections</node>
+    <node x="215.37499999999997" y="280.0">ede4598d-5064-4f51-b188-1ba3edbd1dbe.TABLE:main.systems</node>
+    <node x="241.37499999999997" y="0.0">ede4598d-5064-4f51-b188-1ba3edbd1dbe.TABLE:main.regions</node>
+    <node x="215.37499999999997" y="129.0">ede4598d-5064-4f51-b188-1ba3edbd1dbe.TABLE:main.constellations</node>
+    <node x="0.0" y="687.0">ede4598d-5064-4f51-b188-1ba3edbd1dbe.TABLE:main.stargates</node>
+    <node x="165.99999999999997" y="519.0">ede4598d-5064-4f51-b188-1ba3edbd1dbe.TABLE:main.system_kills</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ede4598d-5064-4f51-b188-1ba3edbd1dbe.TABLE:main.system_kills" target="ede4598d-5064-4f51-b188-1ba3edbd1dbe.TABLE:main.systems">
+      <point x="0.0" y="-61.5" />
+      <point x="242.99999999999997" y="499.0" />
+      <point x="289.625" y="499.0" />
+      <point x="-24.75" y="94.5" />
+    </edge>
+    <edge source="ede4598d-5064-4f51-b188-1ba3edbd1dbe.TABLE:main.thera" target="ede4598d-5064-4f51-b188-1ba3edbd1dbe.TABLE:main.systems">
+      <point x="0.0" y="-39.5" />
+      <point x="73.0" y="489.0" />
+      <point x="240.12499999999997" y="489.0" />
+      <point x="-74.25" y="94.5" />
+    </edge>
+    <edge source="ede4598d-5064-4f51-b188-1ba3edbd1dbe.TABLE:main.systems" target="ede4598d-5064-4f51-b188-1ba3edbd1dbe.TABLE:main.constellations">
+      <point x="0.0" y="-94.5" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="ede4598d-5064-4f51-b188-1ba3edbd1dbe.TABLE:main.connections" target="ede4598d-5064-4f51-b188-1ba3edbd1dbe.TABLE:main.systems">
+      <point x="45.75" y="-39.0" />
+      <point x="477.25" y="489.0" />
+      <point x="388.625" y="489.0" />
+      <point x="74.25" y="94.5" />
+    </edge>
+    <edge source="ede4598d-5064-4f51-b188-1ba3edbd1dbe.TABLE:main.constellations" target="ede4598d-5064-4f51-b188-1ba3edbd1dbe.TABLE:main.regions">
+      <point x="0.0" y="-50.5" />
+      <point x="0.0" y="39.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="668.0" y="607.0" />
+  <SelectedNodes>
+    <node>ede4598d-5064-4f51-b188-1ba3edbd1dbe.TABLE:main.sqlite_master</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
